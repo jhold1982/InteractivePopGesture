@@ -11,6 +11,7 @@
 		646DEFD42AD71AB70025501A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646DEFD32AD71AB70025501A /* ContentView.swift */; };
 		646DEFD62AD71AB90025501A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646DEFD52AD71AB90025501A /* Assets.xcassets */; };
 		646DEFD92AD71AB90025501A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646DEFD82AD71AB90025501A /* Preview Assets.xcassets */; };
+		646DEFE02AD71D920025501A /* FullSwipeNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646DEFDF2AD71D920025501A /* FullSwipeNavigationStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		646DEFD32AD71AB70025501A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		646DEFD52AD71AB90025501A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		646DEFD82AD71AB90025501A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		646DEFDF2AD71D920025501A /* FullSwipeNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSwipeNavigationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				646DEFD12AD71AB70025501A /* InteractivePopGestureApp.swift */,
 				646DEFD32AD71AB70025501A /* ContentView.swift */,
+				646DEFDF2AD71D920025501A /* FullSwipeNavigationStack.swift */,
 				646DEFD52AD71AB90025501A /* Assets.xcassets */,
 				646DEFD72AD71AB90025501A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646DEFE02AD71D920025501A /* FullSwipeNavigationStack.swift in Sources */,
 				646DEFD42AD71AB70025501A /* ContentView.swift in Sources */,
 				646DEFD22AD71AB70025501A /* InteractivePopGestureApp.swift in Sources */,
 			);

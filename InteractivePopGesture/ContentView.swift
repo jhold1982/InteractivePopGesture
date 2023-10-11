@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State private var isEnabled = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        // Sample View
+		FullSwipeNavigationStack {
+			List {
+				Section("Sample Header") {
+					NavigationLink("Full Swipe View") {
+						List {
+							Toggle("Full Swipe", isOn: $isEnabled)
+								.enableFullSwipePop(isEnabled)
+						}
+						.navigationTitle("Full Swipe View")
+					}
+					
+					NavigationLink("Leading Swipe View") {
+						Text("")
+							.navigationTitle("Leading Swipe View")
+					}
+				}
+			}
+			.navigationTitle("Full Swipe Pop")
+		}
     }
 }
 
